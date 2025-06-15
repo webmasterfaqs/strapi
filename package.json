@@ -38,6 +38,7 @@
     "build:size": "cd examples/getstarted && yarn build",
     "build:ts": "nx run-many --target=build:ts --nx-ignore-cycles",
     "build:watch": "nx watch --all --nx-ignore-cycles -- nx run \\$NX_PROJECT_NAME:build --nx-ignore-cycles",
+    "start": "strapi start"'
     "clean": "nx run-many --target=clean --nx-ignore-cycles",
     "commit": "commit",
     "doc:api": "node scripts/open-api/serve.js",
